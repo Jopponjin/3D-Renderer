@@ -396,3 +396,8 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Meshes etc
+Assets/
+Thirdparty/imgui-1.87/examples
+Thirdparty/imgui-1.87/docs
