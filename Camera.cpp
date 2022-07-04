@@ -11,6 +11,8 @@ void Camera::InitCamera(GLFWwindow *window,int width, int height, glm::vec3 posi
 	lastX = (width / 2);
 	lastY = (height / 2);
 
+	std::cout << "InitCamera() called." << std::endl;
+
 }
 
 void Camera::UpdateMatrix(float FOVdeg, float nearPlane, float farPlane)

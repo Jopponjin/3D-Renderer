@@ -90,7 +90,8 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Mesh.cpp" />
     <ClCompile Include="Model.cpp" />
-    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="RendererGL.cpp" />
+    <ClCompile Include="RendererVK.cpp" />
     <ClCompile Include="shaderClass.cpp" />
     <ClCompile Include="stb.cpp" />
     <ClCompile Include="Texture.cpp" />
@@ -106,7 +107,8 @@
     <ClInclude Include="Input.h" />
     <ClInclude Include="Mesh.h" />
     <ClInclude Include="Model.h" />
-    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="RendererGL.h" />
+    <ClInclude Include="RendererVK.h" />
     <ClInclude Include="shaderClass.h" />
     <ClInclude Include="Texture.h" />
     <ClInclude Include="TimeStep.h" />

@@ -1,5 +1,7 @@
 #include "Window.h"
 
+
+
 Window::Window()
 {
 }
@@ -12,13 +14,15 @@ void Window::InitWindow()
 	//GLFW and OpenGl Hints.
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4.6);
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 4.4);
+	
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_COMPAT_PROFILE);
 	glfwWindowHint(GLFW_RESIZABLE, GLFW_TRUE);
+
 	//glfwWindowHint(GLFW_OPENGL_DEBUG_CONTEXT, GLFW_TRUE);
 
 	// Assign pramary monitor and create a window.
 	glfwMonitor = glfwGetPrimaryMonitor();
-	glfwWindow = glfwCreateWindow(width, height, "OpenGL", NULL, NULL);
+	glfwWindow = glfwCreateWindow(screenWidth, screenHeight, "OpenGL", NULL, NULL);
 
 	// In case something goes wrong terminate the window and subsequent application.
 	if (glfwWindow == NULL)
@@ -61,3 +65,5 @@ void Window::HandleFramebufferResize(GLFWwindow* window, int width, int height)
 {
 	glViewport(0, 0, width, height);
 }
+
+

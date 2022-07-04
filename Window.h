@@ -19,11 +19,27 @@ public:
 
 	bool exitApp;
 
-	int width = 1280;
-	int height = 720;
+	int screenWidth = 1280;
+	int screenHeight = 720;
+
+	int virtualWidth = 0;
+	int virtualHeight = 0;
+
 
 	GLFWwindow* glfwWindow;
 	GLFWmonitor* glfwMonitor;
+
+	// Struct to hold renderer info
+	struct GLRendererInfo 
+	{
+		GLint rendererID;       // RendererID number
+		GLint accelerated;      // Whether Hardware accelerated
+		GLint online;           // Whether renderer (/GPU) is onilne
+		GLint virtualScreen;    // Virtual screen number
+		GLint videoMemoryMB;
+		GLint textureMemoryMB;
+		const GLubyte* vendor;
+	};
 };
 
 #endif

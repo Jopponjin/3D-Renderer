@@ -14,7 +14,7 @@ std::string get_file_contents(const char* filename);
 class Shader 
 {
 public:
-	Shader(const char* vertexFile, const char* fragmentFile);
+	Shader();
 
 	void SubmitShaderData(const char* vertexFile, const char* fragmentFile);
 
