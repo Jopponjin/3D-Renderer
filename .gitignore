@@ -401,3 +401,5 @@ FodyWeavers.xsd
 Assets/
 Thirdparty/imgui-1.87/examples
 Thirdparty/imgui-1.87/docs
+Thirdparty/lib/SPIRV-Tools-optd.lib
+Thirdparty/lib/shaderc_combinedd.lib
