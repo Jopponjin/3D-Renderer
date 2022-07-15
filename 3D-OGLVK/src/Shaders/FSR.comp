@@ -1,0 +1,13 @@
+#version 460 core
+
+
+
+//AF4 FsrEasuRF(AF2 p) { return textureGather(Source, p, 0); }
+//AF4 FsrEasuGF(AF2 p) { return textureGather(Source, p, 1); }
+//AF4 FsrEasuBF(AF2 p) { return textureGather(Source, p, 2); }
+
+
+void main()
+{
+
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{0DA592A8-EEFB-4753-8804-51F5F6CA1C02}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3D-OGLVK", "3D-OGLVK\3D-OGLVK.vcxproj", "{77FA25F9-8500-485A-8A04-F0B9119D4E70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77FA25F9-8500-485A-8A04-F0B9119D4E70}.Debug|x64.ActiveCfg = Debug|x64
+		{77FA25F9-8500-485A-8A04-F0B9119D4E70}.Debug|x64.Build.0 = Debug|x64
+		{77FA25F9-8500-485A-8A04-F0B9119D4E70}.Release|x64.ActiveCfg = Release|x64
+		{77FA25F9-8500-485A-8A04-F0B9119D4E70}.Release|x64.Build.0 = Release|x64
+		{0DA592A8-EEFB-4753-8804-51F5F6CA1C02}.Debug|x64.ActiveCfg = Debug|x64
+		{0DA592A8-EEFB-4753-8804-51F5F6CA1C02}.Debug|x64.Build.0 = Debug|x64
+		{0DA592A8-EEFB-4753-8804-51F5F6CA1C02}.Release|x64.ActiveCfg = Release|x64
+		{0DA592A8-EEFB-4753-8804-51F5F6CA1C02}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EF2A492-8322-4E44-8C79-7B3C472F6521}
+	EndGlobalSection
+EndGlobal
