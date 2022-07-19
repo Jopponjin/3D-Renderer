@@ -4,7 +4,7 @@ namespace OGLVK
 {
 	Application::Application()
 	{
-		//std::cout << "Application constructer called!" << std::endl;
+		std::cout << "Application constructer called!" << std::endl;
 	}
 
 	Application::~Application()

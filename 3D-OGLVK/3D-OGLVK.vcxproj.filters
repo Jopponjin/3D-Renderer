@@ -75,7 +75,7 @@
     <ClCompile Include="src\3D-OGLVK\Core\glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\3D-OGLVK\Core\EntryPoint.cpp">
+    <ClCompile Include="src\3D-OGLVK\Core\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -131,7 +131,7 @@
     <ClInclude Include="src\3D-OGLVK.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\3D-OGLVK\Core\EntryPoint.h">
+    <ClInclude Include="src\3D-OGLVK\Core\Log.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

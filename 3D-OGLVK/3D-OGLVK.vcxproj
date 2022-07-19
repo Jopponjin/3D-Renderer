@@ -11,6 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\3D-OGLVK\Core\Log.cpp" />
     <ClCompile Include="src\3D-OGLVK\Core\glad.c" />
     <ClCompile Include="src\3D-OGLVK\Core\Application.cpp" />
     <ClCompile Include="src\3D-OGLVK\Core\Camera.cpp" />
@@ -33,6 +34,7 @@
     <ClCompile Include="src\3D-OGLVK\Core\Window.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\3D-OGLVK\Core\Log.h" />
     <ClInclude Include="src\3D-OGLVK\Core\Application.h" />
     <ClInclude Include="src\3D-OGLVK\Core\Camera.h" />
     <ClInclude Include="src\3D-OGLVK\Core\Core.h" />
@@ -88,7 +90,7 @@
     <LinkIncremental>true</LinkIncremental>
     <OutDir>$(SolutionDir)\bin\$(Platform)\$(Configuration)\$(ProjectName)</OutDir>
     <IntDir>$(SolutionDir)\obj\$(Platform)\$(Configuration)\$(ProjectName)</IntDir>
-    <IncludePath>$(SolutionDir)Thirdparty\include;$(SolutionDir)Thirdparty\include\vulkan;$(SolutionDir)Thirdparty\include\glm;$(SolutionDir)Thirdparty\include\GLFW;$(SolutionDir)Thirdparty\include\stb;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)Thirdparty\include;$(SolutionDir)Thirdparty\include\vulkan;$(SolutionDir)Thirdparty\include\glm;$(SolutionDir)Thirdparty\include\GLFW;$(SolutionDir)Thirdparty\include\stb;$(SolutionDir)Thirdparty\include\spdlog;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
     <LibraryPath>$(SolutionDir)Thirdparty\lib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64); $(Additional Library Directories)</LibraryPath>
     <SourcePath>$(SolutionDir)3D-OGLVK\src</SourcePath>
     <TargetName>$(ProjectName)</TargetName>

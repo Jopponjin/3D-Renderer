@@ -13,7 +13,7 @@ namespace fs = std::filesystem;
 #include"GUI.h"
 
 
-void Something()
+void InitOldProgram()
 {
 	Window window;
 	window.InitWindow();
